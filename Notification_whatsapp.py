@@ -99,7 +99,7 @@ def process_government_schemes():
             if date_of_upload >= one_month_ago:
                 new_schemes.append(description)
 
-                subscribers = ['+918499994076']
+                subscribers = ['']
                 for phone_number in subscribers:
                     send_whatsapp_message(phone_number, description)
 
