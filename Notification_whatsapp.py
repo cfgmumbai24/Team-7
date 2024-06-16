@@ -15,7 +15,7 @@ firebase_admin.initialize_app(cred, {'storageBucket': 'jpmc-34b4a.appspot.com'})
 bucket = storage.bucket()
 
 # Your Twilio credentials
-account_sid = 'AC9734774af87fb3eb53f14ead0086352a'
+account_sid = ''
 auth_token = ''
 client_twilio = Client(account_sid, auth_token)
 
